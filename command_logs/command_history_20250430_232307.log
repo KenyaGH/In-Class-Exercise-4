@@ -1,0 +1,18 @@
+[2025-04-30 23:23:07] [/workspaces/In-Class-Exercise-4] source .devcontainer/shell.sh
+[2025-04-30 23:24:53] [/workspaces/In-Class-Exercise-4] ls READ.md
+[2025-04-30 23:25:34] [/workspaces/In-Class-Exercise-4] ls exercise/ > output.txt
+[2025-04-30 23:26:37] [/workspaces/In-Class-Exercise-4] rkgjkldfj 2> error.log
+[2025-04-30 23:28:16] [/workspaces/In-Class-Exercise-4] ls exercise/ |wc -l
+[2025-04-30 23:28:34] [/workspaces/In-Class-Exercise-4] ls exercise/
+[2025-04-30 23:29:23] [/workspaces/In-Class-Exercise-4] cat exercise/duplicates.txt
+[2025-04-30 23:29:45] [/workspaces/In-Class-Exercise-4] cat exercise/duplicates.txt | uniq | sort
+[2025-04-30 23:31:39] [/workspaces/In-Class-Exercise-4] cat << EOF > message.txt
+hello cs190 
+ready for midterms
+send help aaaaaah
+EOF
+[2025-04-30 23:33:22] [/workspaces/In-Class-Exercise-4] ls exercise/dir1/file1.txt file2.txt
+[2025-04-30 23:33:48] [/workspaces/In-Class-Exercise-4] ls exercise/dir1/
+[2025-04-30 23:33:55] [/workspaces/In-Class-Exercise-4] ls exercise/dir2/
+[2025-04-30 23:34:36] [/workspaces/In-Class-Exercise-4] diff <(ls exercise/dir1) <(ls exercise/dir)
+[2025-04-30 23:35:05] [/workspaces/In-Class-Exercise-4] diff <(ls exercise/dir1) <(ls exercise/dir2)
